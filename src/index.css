@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  transition: all 0.4s;
+}
+body {
+  background-color: rgb(27, 1, 1);
+}
+.container {
+  text-align: center;
+  margin: 50px auto 50px auto;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(223, 197, 2);
+  border-radius: 15px;
+}
+.title {
+  margin: -20px auto 20px auto;
+  color: rgb(231, 231, 231);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 5px;
+  font-size: 2.5rem;
+  width: 50%;
+  background-color: rgb(47, 47, 47);
+}
+.input {
+  background-color: rgb(223, 223, 223);
+  border-radius: 10px;
+  border-style: none;
+  margin: 5px auto 5px auto;
+  width: 400px;
+  height: 40px;
+  padding: 3px;
+  font-size: 1rem;
+}
+.submit {
+  background-color: rgb(223, 223, 223);
+  border-style: none;
+  border-radius: 10px;
+  margin: 5px auto 5px 10px;
+  padding: 3px;
+  width: 50px;
+  font-size: 1rem;
+  height: 40px;
+}
+.added {
+  background-color: rgb(47, 47, 47);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 12px;
+}
+.remove-btn {
+  float: right;
+  margin: -2px 20px 5px 10px;
+}
+.btn {
+  font-weight: bold;
+  padding: 5px;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  border-style: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(223, 223, 223);
+}
+.btn:hover,
+.submit:hover,
+.input:hover {
+  background-color: rgb(155, 155, 155);
+}
+.clear {
+  background-color: rgb(110, 8, 8);
+  color: rgb(233, 220, 37);
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.modal {
+  background-color: rgb(110, 8, 8);
+  color: rgb(233, 220, 37);
+  font-size: 1.2rem;
+  margin: 10px auto 10px auto;
+  width: 150px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    text-align: center;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    width: 95%;
+    background-color: rgb(223, 197, 2);
+    border-radius: 15px;
+  }
+  .title {
+    margin: -20px auto 10px auto;
+    color: rgb(231, 231, 231);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+    font-size: 1.5rem;
+    width: 50%;
+    background-color: rgb(47, 47, 47);
+  }
+  .input {
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    border-style: none;
+    margin: 5px auto 5px auto;
+    width: 80%;
+    height: 30px;
+    padding: 3px;
+    font-size: 0.8rem;
+  }
+  .addPart {
+    margin-bottom: 10px;
+  }
+  .submit {
+    background-color: rgb(223, 223, 223);
+    border-style: none;
+    border-radius: 10px;
+    width: 15%;
+    font-size: 1rem;
+    height: 30px;
+  }
+  .added {
+    background-color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin: 5px auto 5px auto;
+    padding: 8px;
+    width: 100%;
+  }
+  .remove-btn {
+    float: right;
+    margin: -2px 0px 5px 10px;
+  }
+  .btn {
+    font-weight: bold;
+    padding: 4px;
+    font-size: 0.6rem;
+    border-radius: 5px;
+    border-style: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(223, 223, 223);
+  }
+  .btn:hover,
+  .submit:hover,
+  .input:hover {
+    background-color: rgb(189, 189, 189);
+  }
+  .clear {
+    background-color: rgb(110, 8, 8);
+    color: rgb(233, 220, 37);
+    padding: 7px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .modal {
+    background-color: rgb(110, 8, 8);
+    color: rgb(233, 220, 37);
+    font-size: 0.8rem;
+    margin: 8px auto 8px auto;
+    width: 30%;
+    padding: 8px;
+    border-radius: 8px;
+  }
+}
